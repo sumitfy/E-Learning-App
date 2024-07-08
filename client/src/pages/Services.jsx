@@ -49,13 +49,13 @@ const Services = () => {
       {service.map((item, index) => (
         <div style={containerstyle}>
             <div key={index} style={cardStyle}>
-                <h1 style={titleStyle}>{item.E_name}</h1>
-                <img src={item.E_url} alt="image" height={300} width={300} />
-                <li style={stepStyle}>{item.step1}</li>
-                <li  style={stepStyle}>{item.step2}</li >
-                <li  style={stepStyle}>{item.step3}</li >
-                <li  style={stepStyle}>{item.step4}</li >
-                <li  style={stepStyle}>{item.step5}</li >
+                <h1 style={titleStyle}>{item.title}</h1>
+                <img src={item.imageUrl} alt="image" height={300} width={300} />
+                <li style={stepStyle}>{item.instructor}</li>
+                <li  style={stepStyle}>{item.duration}</li >
+                <li  style={stepStyle}>{item.price}</li >
+                <li  style={stepStyle}>{item.category}</li >
+                {/* <li  style={stepStyle}>{item.step5}</li > */}
             </div>
         </div>
           
