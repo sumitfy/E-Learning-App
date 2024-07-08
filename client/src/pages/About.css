@@ -1,0 +1,67 @@
+/* src/components/About.css */
+.about-container {
+    /* max-width: 900px; */
+    /* margin: 0 auto; */
+    padding: 40px 20px;
+    background-color: #aaaaaa;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+  }
+  
+  .about-header p {
+    font-size: 1.2em;
+    color: #414141;
+  }
+  
+  .about-content {
+    padding: 0 210px 0 210px;
+    font-size: 1.1em;
+    color: #414141;
+  }
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .about-section p {
+    line-height: 1.6;
+  }
+  
+  .about-section ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .about-section li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  
+  .about-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-section a:hover {
+    text-decoration: underline;
+  }
+  

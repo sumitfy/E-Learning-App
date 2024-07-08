@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    background-color: #797979;
+    display:flex;
+    justify-content: space-between;
+}
+#AdminFunc{
+    display: flex;
+    gap:40px;
+}
+
